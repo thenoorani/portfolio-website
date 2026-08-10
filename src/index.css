@@ -43,7 +43,7 @@ img, video {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -89,6 +89,7 @@ img, video {
 .mb-2 { margin-bottom: 0.5rem; }
 .mb-4 { margin-bottom: 1rem; }
 .mb-8 { margin-bottom: 2rem; }
+.mb-12 { margin-bottom: 3rem; }
 .mb-16 { margin-bottom: 4rem; }
 
 .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
@@ -103,13 +104,17 @@ img, video {
 .gap-4 { gap: 1rem; }
 .gap-8 { gap: 2rem; }
 
-.grid { display: grid; }
-.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
-.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+/* Custom CV Grid */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: baseline;
+}
 
-@media (max-width: 768px) {
-  .md\:grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
-  .text-6xl { font-size: 2.5rem; }
-  .py-32 { padding-top: 4rem; padding-bottom: 4rem; }
+@media (max-width: 640px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
 }
