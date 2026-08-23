@@ -7,17 +7,17 @@ function App() {
       {/* HEADER */}
       <header>
         {/* Title Block */}
-        <div className="cv-grid" style={{ marginTop: '59px' }}>
+        <div className="cv-grid" style={{ marginTop: '59px', marginBottom: '24px' }}>
           <div></div>
           <h1 className="style-section-title">Victor Noorani</h1>
         </div>
 
         {/* Contact Block */}
-        <div className="cv-grid" style={{ marginTop: '46px', marginBottom: '70px' }}>
-          <div className="style-date">Contact</div>
+        <div className="cv-grid" style={{ marginBottom: '100px' }}>
+          <div className="style-date">Contact:</div>
           <div className="style-contact">
             <a href="mailto:victornoorani@gmail.com">victornoorani@gmail.com</a>
-            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://linkedin.com">linkedIn</a>
             <a href="https://github.com">GitHub</a>
           </div>
         </div>

@@ -6,13 +6,7 @@
   --margin-left: 36px;
   --margin-right: 36px;
   --col-left-width: 145px;
-  --col-gap: 19px;
-  
-  /* Font weights mapped from InDesign Paragraph Styles */
-  --fw-medium: 500;
-  --fw-regular: 400;
-  --fw-light: 300;
-  --fw-thin: 200;
+  --col-gap: 20px;
 
   /* Baseline grid (based on 24px line-height) */
   --baseline: 24px;
@@ -25,7 +19,7 @@
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-size: 18px; 
@@ -34,37 +28,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography Styles */
+/* Typography Styles utilizing macOS specific font names for perfect weights */
 .style-section-title {
-  font-weight: var(--fw-medium);
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .style-role-title {
-  font-weight: var(--fw-regular);
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+  font-weight: 500;
   font-size: 18px;
 }
 
 .style-employee {
-  font-weight: var(--fw-regular);
+  font-family: "HelveticaNeue-Italic", "Helvetica Neue Italic", "Helvetica Neue", sans-serif;
+  font-weight: 400;
   font-style: italic;
   font-size: 18px;
 }
 
 .style-paragraph {
-  font-weight: var(--fw-light);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+  font-weight: 300;
   font-size: 18px;
 }
 
 .style-date {
-  font-weight: var(--fw-thin);
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", sans-serif;
+  font-weight: 200;
   font-size: 18px;
   text-align: right;
+  color: #666; /* The image shows dates/contact slightly lighter/thinner visually */
 }
 
 .style-contact {
-  font-weight: var(--fw-light);
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", sans-serif;
+  font-weight: 200;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -106,7 +108,7 @@ a:hover {
   display: flex;
   gap: var(--col-gap);
   overflow-x: auto;
-  margin-top: var(--baseline);
+  margin-top: 12px;
   /* Hides scrollbar for clean look but allows scrolling */
   scrollbar-width: none; 
 }
