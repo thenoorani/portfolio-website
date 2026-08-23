@@ -113,8 +113,8 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Led spatial design for Nike ARENA Event & NTS Show featuring Erykah Badu. Developed the design all the way from concept stage to fabrication and instillation.
                 </div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
+                <img src="/nike-setup.png" alt="Nike Setup" className="gallery-landscape" />
+                <img src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
