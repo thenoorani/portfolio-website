@@ -113,15 +113,24 @@ function App() {
           </div>
           
           <div className="cv-grid">
-            <div className="style-date">Aug 2026</div>
+            <div className="style-date">June 2026 –<br/>Ongoing</div>
             <div>
               <div className="style-role-title">Founder & AI Engineer</div>
-              <div className="style-employee">Flee Mag</div>
+              <div className="style-employee">Peace4</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
                   Orchestrated a multi-agent pipeline using Gemini Pro, separating concerns between Data Normalization, Editorial Curation, and Art Direction agents, safely constrained by deterministic Zod schema validation and Human-In-The-Loop (HITL) approvals.
                 </div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
               </div>
             </div>
           </div>
