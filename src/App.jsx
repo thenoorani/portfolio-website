@@ -65,46 +65,6 @@ function App() {
           </div>
         </section>
 
-        {/* AWARDS & PUBLIC ENGAGEMENT */}
-        <section className="mb-70">
-          <div className="cv-grid">
-            <div></div>
-            <h2 className="style-section-title">Awards & Public Engagement</h2>
-          </div>
-          
-          {/* Experience 1 */}
-          <div className="cv-grid">
-            <div className="style-date">April 2026</div>
-            <div>
-              <div className="style-role-title">1st Place — Solid Hackathon</div>
-              <div className="style-employee">Open Data Institute</div>
-              
-              <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph">
-                  Built “Bunbury” - a decentralised calling card platform built on the Solid protocol to facilitate secure, peer-to-peer sharing of sovereign personal data based on physical proximity.
-                </div>
-                <MediaImage src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
-                <MediaImage src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
-              </div>
-            </div>
-          </div>
-
-          {/* Experience 2 */}
-          <div className="cv-grid">
-            <div className="style-date">Jan 2026</div>
-            <div>
-              <div className="style-role-title">Panelist: Social Media Influencers in Politics</div>
-              <div className="style-employee">Political Tech Conference, Berlin</div>
-              
-              <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph">
-                  Spoke about influencers as emergent political actors, the impact of attention economies on discourse, parasocial trust dynamics, and the shift toward decentralised political communication.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* PROFESSIONAL EXPERIENCE */}
         <section className="mb-70">
           <div className="cv-grid">
@@ -210,6 +170,46 @@ function App() {
           </div>
         </section>
 
+        {/* AWARDS & PUBLIC ENGAGEMENT */}
+        <section className="mb-70">
+          <div className="cv-grid">
+            <div></div>
+            <h2 className="style-section-title">Awards & Public Engagement</h2>
+          </div>
+          
+          {/* Experience 1 */}
+          <div className="cv-grid">
+            <div className="style-date">April 2026</div>
+            <div>
+              <div className="style-role-title">1st Place — Solid Hackathon</div>
+              <div className="style-employee">Open Data Institute</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph">
+                  Built “Bunbury” - a decentralised calling card platform built on the Solid protocol to facilitate secure, peer-to-peer sharing of sovereign personal data based on physical proximity.
+                </div>
+                <MediaImage src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
+                <MediaImage src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
+              </div>
+            </div>
+          </div>
+
+          {/* Experience 2 */}
+          <div className="cv-grid">
+            <div className="style-date">Jan 2026</div>
+            <div>
+              <div className="style-role-title">Panelist: Social Media Influencers in Politics</div>
+              <div className="style-employee">Political Tech Conference, Berlin</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph">
+                  Spoke about influencers as emergent political actors, the impact of attention economies on discourse, parasocial trust dynamics, and the shift toward decentralised political communication.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* EDUCATIONAL EXPERIENCE */}
         <section className="mb-70">
           <div className="cv-grid">
@@ -233,22 +233,6 @@ function App() {
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
               </div>
-            </div>
-          </div>
-
-          <div className="cv-grid">
-            <div className="style-date">2025</div>
-            <div>
-              <div className="style-role-title">Certificate in Machine Learning & AI</div>
-              <div className="style-employee">Imperial College London</div>
-            </div>
-          </div>
-          
-          <div className="cv-grid">
-            <div className="style-date"></div>
-            <div>
-              <div className="style-role-title">Certificate in Real Estate Finance & Economics</div>
-              <div className="style-employee"></div>
             </div>
           </div>
         </section>
