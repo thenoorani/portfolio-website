@@ -159,13 +159,18 @@ function App() {
           <div className="cv-grid">
             <div className="style-date">Jan 2020 –<br/>Jan 2021</div>
             <div>
-              <div className="style-role-title">Freelance Director / Producer</div>
-              <div className="style-employee">Creative Campaigns & Media</div>
+              <div className="style-role-title">Music Promo Direction</div>
+              <div className="style-employee">Freelance</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
                   Directed and produced branded content for clients including Converse, Levis, and Axel Arigato. Led production crews of 50+ for music videos with artists signed to Epic and Atlantic Records. Achieved CPV of ~0.4p.
                 </div>
+                <div className="gallery-landscape"></div>
+                <div className="gallery-square"></div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
                 <div className="gallery-landscape"></div>
                 <div className="gallery-square"></div>
               </div>
