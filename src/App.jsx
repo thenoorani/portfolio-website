@@ -7,19 +7,9 @@ function App() {
       {/* HEADER */}
       <header>
         {/* Title Block */}
-        <div className="cv-grid" style={{ marginTop: '59px', marginBottom: '24px' }}>
+        <div className="cv-grid" style={{ marginTop: '59px', marginBottom: '100px' }}>
           <div></div>
           <h1 className="style-section-title">Victor Noorani</h1>
-        </div>
-
-        {/* Contact Block */}
-        <div className="cv-grid" style={{ marginBottom: '100px' }}>
-          <div className="style-date">Contact:</div>
-          <div className="style-contact">
-            <a href="mailto:victornoorani@gmail.com">victornoorani@gmail.com</a>
-            <a href="https://linkedin.com">linkedIn</a>
-            <a href="https://github.com">GitHub</a>
-          </div>
         </div>
       </header>
 
@@ -36,6 +26,14 @@ function App() {
               <div className="gallery-scroll" style={{ marginTop: 0 }}>
                 <div className="gallery-paragraph style-paragraph">
                   Multi-disciplinary creative based in London. Specializing in spatial design, engineering, and media production.
+                </div>
+                {/* Contact block added as a second paragraph in Bio */}
+                <div className="gallery-paragraph style-paragraph">
+                  <div className="style-contact">
+                    <a href="mailto:victornoorani@gmail.com">victornoorani@gmail.com</a>
+                    <a href="https://linkedin.com">linkedIn</a>
+                    <a href="https://github.com">GitHub</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -185,6 +183,31 @@ function App() {
             <h2 className="style-section-title">Educational Experience</h2>
           </div>
           
+          {/* University Work with Triple Gallery */}
+          <div className="cv-grid">
+            <div className="style-date">2018 –<br/>2021</div>
+            <div>
+              <div className="style-role-title">University Work</div>
+              <div className="style-employee">Architecture & Design</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-landscape"></div>
+                <div className="gallery-square"></div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-landscape"></div>
+                <div className="gallery-square"></div>
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-landscape"></div>
+                <div className="gallery-square"></div>
+              </div>
+            </div>
+          </div>
+
           <div className="cv-grid">
             <div className="style-date">2025</div>
             <div>
@@ -198,24 +221,6 @@ function App() {
             <div>
               <div className="style-role-title">Certificate in Real Estate Finance & Economics</div>
               <div className="style-employee"></div>
-            </div>
-          </div>
-        </section>
-
-        {/* SKILLS */}
-        <section style={{ paddingBottom: '70px' }}>
-          <div className="cv-grid">
-            <div></div>
-            <h2 className="style-section-title">Skills</h2>
-          </div>
-          <div className="cv-grid">
-            <div></div>
-            <div>
-              <div className="gallery-scroll" style={{ marginTop: 0 }}>
-                <div className="gallery-paragraph style-paragraph">
-                  Spatial Design, Structural Engineering (ETABS, BIM), Video Production, Web Development (React, Vercel), AI Automation (Gemini Pro, Agentic Workflows)
-                </div>
-              </div>
             </div>
           </div>
         </section>
