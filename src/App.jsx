@@ -1,6 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function App() {
+  const [fullScreenMedia, setFullScreenMedia] = useState(null);
+
+  const MediaImage = ({ src, alt, className }) => (
+    <img 
+      src={src} 
+      alt={alt} 
+      className={className} 
+      onClick={() => setFullScreenMedia(src)}
+      style={{ cursor: 'zoom-in' }}
+    />
+  );
+
+  const MediaVideo = ({ src, className }) => (
+    <video 
+      src={src} 
+      className={className}
+      autoPlay 
+      loop 
+      muted 
+      playsInline 
+      onClick={() => setFullScreenMedia(src)}
+      style={{ cursor: 'zoom-in', objectFit: 'cover' }}
+    />
+  );
+
   return (
     <div className="page-container">
       
@@ -58,8 +83,8 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Built “Bunbury” - a decentralised calling card platform built on the Solid protocol to facilitate secure, peer-to-peer sharing of sovereign personal data based on physical proximity.
                 </div>
-                <img src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
-                <img src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
+                <MediaImage src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
+                <MediaImage src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
               </div>
             </div>
           </div>
@@ -97,8 +122,6 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Orchestrated a multi-agent pipeline using Gemini Pro, separating concerns between Data Normalization, Editorial Curation, and Art Direction agents, safely constrained by deterministic Zod schema validation and Human-In-The-Loop (HITL) approvals.
                 </div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
               </div>
             </div>
           </div>
@@ -113,12 +136,13 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Led spatial design for Nike ARENA Event & NTS Show featuring Erykah Badu. Developed the design all the way from concept stage to fabrication and instillation.
                 </div>
-                <img src="/nike-setup.png" alt="Nike Setup" className="gallery-landscape" />
-                <img src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
+                <MediaImage src="/nike-setup.png" alt="Nike Setup" className="gallery-landscape" />
+                <MediaImage src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
+                <MediaVideo src="/social-impact.mov" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <img src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" />
+                <MediaImage src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" />
               </div>
             </div>
           </div>
@@ -147,8 +171,6 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Collaborated in a multidisciplinary team of 300+ on Stage 4 delivery for Poland’s CPK Airport Project. Extracted, cleaned, and manipulated complex data from global FEA models (ETABS). Designed & documented a bus station structure.
                 </div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
               </div>
             </div>
           </div>
@@ -163,17 +185,17 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Directed and produced branded content for clients including Converse, Levis, and Axel Arigato. Led production crews of 50+ for music videos with artists signed to Epic and Atlantic Records. Achieved CPV of ~0.4p.
                 </div>
-                <img src="/promo-r1-1.jpg" alt="Music Promo 1" className="gallery-square" />
-                <img src="/promo-r1-2.jpg" alt="Music Promo 2" className="gallery-landscape" />
-                <img src="/promo-r1-3.jpg" alt="Music Promo 3" className="gallery-square" />
-                <img src="/promo-r1-4.jpg" alt="Music Promo 4" className="gallery-landscape" />
-                <img src="/promo-r1-5.jpg" alt="Music Promo 5" className="gallery-square" />
+                <MediaImage src="/promo-r1-1.jpg" alt="Music Promo 1" className="gallery-square" />
+                <MediaImage src="/promo-r1-2.jpg" alt="Music Promo 2" className="gallery-landscape" />
+                <MediaImage src="/promo-r1-3.jpg" alt="Music Promo 3" className="gallery-square" />
+                <MediaImage src="/promo-r1-4.jpg" alt="Music Promo 4" className="gallery-landscape" />
+                <MediaImage src="/promo-r1-5.jpg" alt="Music Promo 5" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <img src="/promo-1.jpg" alt="Music Promo Set" className="gallery-landscape" />
-                <img src="/promo-2.jpg" alt="Music Promo Crew" className="gallery-landscape" />
-                <img src="/promo-3.jpg" alt="Music Promo Car" className="gallery-landscape" />
+                <MediaImage src="/promo-1.jpg" alt="Music Promo Set" className="gallery-landscape" />
+                <MediaImage src="/promo-2.jpg" alt="Music Promo Crew" className="gallery-landscape" />
+                <MediaImage src="/promo-3.jpg" alt="Music Promo Car" className="gallery-landscape" />
               </div>
             </div>
           </div>
@@ -195,18 +217,12 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
               </div>
             </div>
           </div>
@@ -229,6 +245,42 @@ function App() {
         </section>
 
       </main>
+
+      {/* FULL SCREEN MODAL */}
+      {fullScreenMedia && (
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0, left: 0, right: 0, bottom: 0,
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            zIndex: 9999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'zoom-out'
+          }}
+          onClick={() => setFullScreenMedia(null)}
+        >
+          {fullScreenMedia.endsWith('.mov') || fullScreenMedia.endsWith('.mp4') ? (
+            <video 
+              src={fullScreenMedia} 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              style={{ maxWidth: '90vw', maxHeight: '90vh' }} 
+              onClick={(e) => e.stopPropagation()}
+              controls
+            />
+          ) : (
+            <img 
+              src={fullScreenMedia} 
+              alt="Fullscreen view" 
+              style={{ maxWidth: '90vw', maxHeight: '90vh', objectFit: 'contain' }} 
+            />
+          )}
+        </div>
+      )}
     </div>
   );
 }
