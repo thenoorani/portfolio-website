@@ -227,6 +227,7 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
+                <MediaImage src="/bartlett-section.jpg" alt="Architecture Section" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
