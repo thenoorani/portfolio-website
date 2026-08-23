@@ -106,10 +106,10 @@ function App() {
           </div>
 
           <div className="cv-grid">
-            <div className="style-date">July 2026 – Aug 2026</div>
+            <div className="style-date">July 2026 –<br/>Aug 2026</div>
             <div>
-              <div className="style-role-title">Freelance Spatial Design</div>
-              <div className="style-employee">Nike ARENA Event & NTS Show</div>
+              <div className="style-role-title">Spatial design</div>
+              <div className="style-employee">Freelance</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
@@ -118,11 +118,16 @@ function App() {
                 <div className="gallery-landscape"></div>
                 <div className="gallery-square"></div>
               </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-landscape"></div>
+                <div className="gallery-square"></div>
+              </div>
             </div>
           </div>
 
           <div className="cv-grid">
-            <div className="style-date">Dec 2025 – Feb 2026</div>
+            <div className="style-date">Dec 2025 –<br/>Feb 2026</div>
             <div>
               <div className="style-role-title">Research and Coordination Assistant</div>
               <div className="style-employee">Attia & Co, Remote</div>
@@ -136,7 +141,7 @@ function App() {
           </div>
 
           <div className="cv-grid">
-            <div className="style-date">Oct 2023 – Oct 2025</div>
+            <div className="style-date">Oct 2023 –<br/>Oct 2025</div>
             <div>
               <div className="style-role-title">Assistant Structural Engineer</div>
               <div className="style-employee">Foster + Partners</div>
@@ -152,7 +157,7 @@ function App() {
           </div>
           
           <div className="cv-grid">
-            <div className="style-date">Jan 2020 – Jan 2021</div>
+            <div className="style-date">Jan 2020 –<br/>Jan 2021</div>
             <div>
               <div className="style-role-title">Freelance Director / Producer</div>
               <div className="style-employee">Creative Campaigns & Media</div>
