@@ -28,8 +28,7 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
-  /* 18pt = 24px on web */
-  font-size: 24px; 
+  font-size: 18px; 
   line-height: var(--baseline);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,40 +37,40 @@ body {
 /* Typography Styles */
 .style-section-title {
   font-weight: var(--fw-medium);
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
 .style-role-title {
   font-weight: var(--fw-regular);
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .style-employee {
   font-weight: var(--fw-regular);
   font-style: italic;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .style-paragraph {
   font-weight: var(--fw-light);
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .style-date {
   font-weight: var(--fw-thin);
-  font-size: 24px;
+  font-size: 18px;
   text-align: right;
 }
 
 .style-contact {
   font-weight: var(--fw-light);
-  font-size: 24px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
 }
 
-/* Base resets for links and headings */
+/* Base resets for links */
 a {
   color: inherit;
   text-decoration: none;
@@ -79,12 +78,6 @@ a {
 }
 a:hover {
   opacity: 0.6;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  margin: 0;
 }
 
 /* Layout Blocks */
@@ -124,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery Items */
 .gallery-paragraph {
   flex: 0 0 309px; /* Exact width from InDesign */
+  min-height: 148px; /* Fixed height so it takes up same amount of space even if not full */
 }
 
 .gallery-landscape {
