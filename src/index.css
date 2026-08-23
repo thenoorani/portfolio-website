@@ -1,9 +1,20 @@
 :root {
   --color-bg: #fdfdfd;
   --color-text: #1a1a1a;
-  --color-accent: #555555;
   --color-border: #e0e0e0;
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  /* Extracted InDesign Grid Variables */
+  --margin-left: 36px;
+  --margin-right: 36px;
+  --col-left-width: 145px;
+  --col-gap: 19px;
+  
+  /* Font weights mapped from InDesign Paragraph Styles */
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
+  --fw-thin: 200;
 }
 
 * {
@@ -16,105 +27,105 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.4;
+  font-size: 18px; /* 18pt in InDesign */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-  transition: opacity 0.2s ease;
+/* Typography Styles */
+.style-section-title {
+  font-weight: var(--fw-medium);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
-a:hover {
-  opacity: 0.6;
+.style-role-title {
+  font-weight: var(--fw-regular);
+  font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  line-height: 1.2;
+.style-employee {
+  font-weight: var(--fw-regular);
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 24px; /* Gap before gallery */
 }
 
-img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+.style-paragraph {
+  font-weight: var(--fw-light);
+  font-size: 18px;
 }
 
-.container {
-  max-width: 900px;
+.style-date {
+  font-weight: var(--fw-thin);
+  font-size: 18px;
+}
+
+.style-contact {
+  font-weight: var(--fw-light);
+  font-size: 18px;
+}
+
+/* Layout Blocks */
+.page-container {
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 var(--margin-right) 0 var(--margin-left);
 }
 
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.8s ease forwards;
-}
-
-/* Utilities */
-.text-sm { font-size: 0.875rem; }
-.text-lg { font-size: 1.125rem; }
-.text-xl { font-size: 1.25rem; }
-.text-2xl { font-size: 1.5rem; }
-.text-4xl { font-size: 2.25rem; }
-.text-6xl { font-size: 3.75rem; }
-
-.font-light { font-weight: 300; }
-.font-normal { font-weight: 400; }
-.font-medium { font-weight: 500; }
-.font-bold { font-weight: 700; }
-
-.uppercase { text-transform: uppercase; letter-spacing: 0.05em; }
-.text-accent { color: var(--color-accent); }
-
-.mt-2 { margin-top: 0.5rem; }
-.mt-4 { margin-top: 1rem; }
-.mt-8 { margin-top: 2rem; }
-.mt-16 { margin-top: 4rem; }
-.mt-32 { margin-top: 8rem; }
-
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-4 { margin-bottom: 1rem; }
-.mb-8 { margin-bottom: 2rem; }
-.mb-12 { margin-bottom: 3rem; }
-.mb-16 { margin-bottom: 4rem; }
-
-.py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-.py-32 { padding-top: 8rem; padding-bottom: 8rem; }
-
-.flex { display: flex; }
-.flex-col { flex-direction: column; }
-.items-center { align-items: center; }
-.justify-between { justify-content: space-between; }
-.justify-center { justify-content: center; }
-.gap-2 { gap: 0.5rem; }
-.gap-4 { gap: 1rem; }
-.gap-8 { gap: 2rem; }
-
-/* Custom CV Grid */
 .cv-grid {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 2rem;
+  grid-template-columns: var(--col-left-width) 1fr;
+  gap: var(--col-gap);
   align-items: baseline;
+  margin-bottom: 48px;
 }
 
-@media (max-width: 640px) {
-  .cv-grid {
+.header-grid {
+  display: grid;
+  grid-template-columns: var(--col-left-width) 1fr;
+  gap: var(--col-gap);
+  padding-top: 105px; /* From InDesign */
+  margin-bottom: 70px;
+}
+
+/* Gallery Scroll */
+.gallery-scroll {
+  display: flex;
+  gap: var(--col-gap);
+  overflow-x: auto;
+  padding-bottom: 24px;
+  /* Hides scrollbar for clean look but allows scrolling */
+  scrollbar-width: none; 
+}
+.gallery-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Gallery Items */
+.gallery-paragraph {
+  flex: 0 0 309px; /* Exact width from InDesign */
+}
+
+.gallery-landscape {
+  flex: 0 0 473px;
+  height: 278px;
+  background-color: #eee;
+  object-fit: cover;
+}
+
+.gallery-square {
+  flex: 0 0 309px;
+  height: 278px;
+  background-color: #eee;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .cv-grid, .header-grid {
     grid-template-columns: 1fr;
-    gap: 0.5rem;
+    gap: 8px;
   }
 }
