@@ -163,8 +163,11 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Directed and produced branded content for clients including Converse, Levis, and Axel Arigato. Led production crews of 50+ for music videos with artists signed to Epic and Atlantic Records. Achieved CPV of ~0.4p.
                 </div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
+                <img src="/promo-r1-1.jpg" alt="Music Promo 1" className="gallery-square" />
+                <img src="/promo-r1-2.jpg" alt="Music Promo 2" className="gallery-landscape" />
+                <img src="/promo-r1-3.jpg" alt="Music Promo 3" className="gallery-square" />
+                <img src="/promo-r1-4.jpg" alt="Music Promo 4" className="gallery-landscape" />
+                <img src="/promo-r1-5.jpg" alt="Music Promo 5" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
