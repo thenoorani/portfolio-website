@@ -205,6 +205,7 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Spoke about influencers as emergent political actors, the impact of attention economies on discourse, parasocial trust dynamics, and the shift toward decentralised political communication.
                 </div>
+                <MediaVideo src="/linkedin-panel.mp4" className="gallery-landscape" />
               </div>
             </div>
           </div>
