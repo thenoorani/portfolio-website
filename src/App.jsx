@@ -220,10 +220,10 @@ function App() {
           
           {/* University Work with Triple Gallery */}
           <div className="cv-grid">
-            <div className="style-date">2018 –<br/>2021</div>
+            <div className="style-date">2018 –<br/>2025</div>
             <div>
-              <div className="style-role-title">University Work</div>
-              <div className="style-employee">Architecture & Design</div>
+              <div className="style-role-title">MEng, Engineering and Architectural Design</div>
+              <div className="style-employee">The Bartlett School of Architecture, UCL</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
