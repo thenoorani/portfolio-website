@@ -118,8 +118,7 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
+                <img src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" />
               </div>
             </div>
           </div>
