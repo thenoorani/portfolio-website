@@ -168,8 +168,9 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <div className="gallery-landscape"></div>
-                <div className="gallery-square"></div>
+                <img src="/promo-1.jpg" alt="Music Promo Set" className="gallery-landscape" />
+                <img src="/promo-2.jpg" alt="Music Promo Crew" className="gallery-landscape" />
+                <img src="/promo-3.jpg" alt="Music Promo Car" className="gallery-landscape" />
               </div>
             </div>
           </div>
