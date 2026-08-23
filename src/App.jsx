@@ -60,7 +60,8 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Built “Bunbury” - a decentralised calling card platform built on the Solid protocol to facilitate secure, peer-to-peer sharing of sovereign personal data based on physical proximity.
                 </div>
-                <div className="gallery-landscape"></div>
+                <img src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
+                <img src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
               </div>
             </div>
           </div>
