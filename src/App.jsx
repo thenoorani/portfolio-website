@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 function App() {
   const [fullScreenMedia, setFullScreenMedia] = useState(null);
 
-  const MediaImage = ({ src, alt, className }) => (
+  const MediaImage = ({ src, alt, className, style }) => (
     <img 
       src={src} 
       alt={alt} 
       className={className} 
       onClick={() => setFullScreenMedia(src)}
-      style={{ cursor: 'zoom-in' }}
+      style={{ cursor: 'zoom-in', ...style }}
     />
   );
 
@@ -142,7 +142,7 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <MediaImage src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" />
+                <MediaImage src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" style={{ objectPosition: 'top' }} />
               </div>
             </div>
           </div>
