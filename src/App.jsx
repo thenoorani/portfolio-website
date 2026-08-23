@@ -198,7 +198,7 @@ function App() {
           <div className="cv-grid">
             <div className="style-date">Jan 2026</div>
             <div>
-              <div className="style-role-title">Panelist: Social Media Influencers in Politics</div>
+              <div className="style-role-title">Panelist: Young Creators as Power Brokers in Politics</div>
               <div className="style-employee">Political Tech Conference, Berlin</div>
               
               <div className="gallery-scroll">
