@@ -234,8 +234,8 @@ function App() {
           <div className="cv-grid">
             <div className="style-date"></div>
             <div>
-              <div className="style-role-title">Studies in Image Creation</div>
-              <div className="style-employee"></div>
+              <div className="style-role-title">Image Creation</div>
+              <div className="style-employee">Studies</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
