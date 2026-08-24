@@ -26,6 +26,13 @@ function App() {
     />
   );
 
+  const MediaPdf = ({ src, thumbnailSrc, alt, className, style }) => (
+    <div className={className} style={{ position: 'relative', cursor: 'zoom-in', ...style }} onClick={() => setFullScreenMedia(src)}>
+      <img src={thumbnailSrc} alt={alt} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      <div style={{ position: 'absolute', top: 10, right: 10, backgroundColor: 'rgba(0,0,0,0.5)', color: 'white', padding: '4px 8px', borderRadius: 4, fontSize: 12 }}>PDF</div>
+    </div>
+  );
+
   return (
     <div className="page-container">
       
@@ -297,6 +304,13 @@ function App() {
               style={{ maxWidth: '90vw', maxHeight: '90vh' }} 
               onClick={(e) => e.stopPropagation()}
               controls
+            />
+          ) : fullScreenMedia.endsWith('.pdf') ? (
+            <iframe 
+              src={fullScreenMedia} 
+              title="PDF Document"
+              style={{ width: '90vw', height: '90vh', border: 'none' }} 
+              onClick={(e) => e.stopPropagation()}
             />
           ) : (
             <img 
