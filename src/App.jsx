@@ -228,7 +228,7 @@ function App() {
           </div>
 
           <div className="cv-grid">
-            <div className="style-date"></div>
+            <div className="style-date">April 2026</div>
             <div>
               <div className="style-role-title">Jamat Tanzania</div>
               <div className="style-employee">Studies</div>
@@ -243,6 +243,18 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div className="cv-grid">
+            <div className="style-date">March 2026</div>
+            <div>
+              <div className="style-role-title">Network State</div>
+              <div className="style-employee">Essays</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* EDUCATIONAL EXPERIENCE */}
@@ -254,7 +266,7 @@ function App() {
           
           {/* University Work with Triple Gallery */}
           <div className="cv-grid">
-            <div className="style-date">2018 –<br/>2025</div>
+            <div className="style-date">2018 –<br/>2023</div>
             <div>
               <div className="style-role-title">MEng, Engineering and Architectural Design</div>
               <div className="style-employee">The Bartlett School of Architecture, UCL</div>
