@@ -218,6 +218,30 @@ function App() {
             <div></div>
             <h2 className="style-section-title">Personal Work</h2>
           </div>
+
+          <div className="cv-grid">
+            <div className="style-date"></div>
+            <div>
+              <div className="style-role-title">Jamat Tanzania</div>
+              <div className="style-employee"></div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cv-grid">
+            <div className="style-date"></div>
+            <div>
+              <div className="style-role-title">Studies in Image Creation</div>
+              <div className="style-employee"></div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* EDUCATIONAL EXPERIENCE */}
