@@ -161,8 +161,8 @@ function App() {
           <div className="cv-grid">
             <div className="style-date">Jan 2020 –<br/>Jan 2021</div>
             <div>
-              <div className="style-role-title">Music Promo Direction</div>
-              <div className="style-employee">Freelance</div>
+              <div className="style-role-title">Music Promo Video Direction</div>
+              <div className="style-employee">Freelance x Tom Emmerson</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
