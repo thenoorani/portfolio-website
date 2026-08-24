@@ -129,19 +129,6 @@ function App() {
             </div>
           </div>
 
-          <div className="cv-grid">
-            <div className="style-date">Dec 2025 –<br/>Feb 2026</div>
-            <div>
-              <div className="style-role-title">Research and Coordination Assistant</div>
-              <div className="style-employee">Attia & Co, Remote</div>
-              
-              <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph">
-                  Assisted a private firm that advises founders on capital structure and public positioning.
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="cv-grid">
             <div className="style-date">Oct 2023 –<br/>Oct 2025</div>
@@ -255,12 +242,15 @@ function App() {
             <div className="style-date">March 2026</div>
             <div>
               <div className="style-role-title">Network State</div>
-              <div className="style-employee">Essays</div>
+              <div className="style-employee">Essay</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
                   In my search for the tech frontier I spent the month of March at Balaji's Network School, in Johor. During this time I shared an essay with my fellow NS members; by borrowing from moral philosophy my aim was to ask the practical question of by what tangible metrics one could judge such an experimental society as a network state.
                 </div>
+                <MediaImage src="/network-1.jpg" alt="Network School Chess" className="gallery-square" />
+                <MediaImage src="/network-2.jpg" alt="Johor Skyline" className="gallery-landscape" />
+                <MediaImage src="/network-3.jpg" alt="Beach" className="gallery-landscape" />
               </div>
             </div>
           </div>
