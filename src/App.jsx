@@ -27,9 +27,8 @@ function App() {
   );
 
   const MediaPdf = ({ src, thumbnailSrc, alt, className, style }) => (
-    <div className={className} style={{ position: 'relative', cursor: 'zoom-in', ...style }} onClick={() => setFullScreenMedia(src)}>
-      <img src={thumbnailSrc} alt={alt} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-      <div style={{ position: 'absolute', top: 10, right: 10, backgroundColor: 'rgba(0,0,0,0.5)', color: 'white', padding: '4px 8px', borderRadius: 4, fontSize: 12 }}>PDF</div>
+    <div className={className} style={{ position: 'relative', cursor: 'zoom-in', overflow: 'hidden', ...style }} onClick={() => setFullScreenMedia(src)}>
+      <img src={thumbnailSrc} alt={alt} style={{ width: '100%', height: 'auto', display: 'block' }} />
     </div>
   );
 
@@ -283,18 +282,20 @@ function App() {
       {/* FULL SCREEN MODAL */}
       {fullScreenMedia && (
         <div 
-          style={{
-            position: 'fixed',
-            top: 0, left: 0, right: 0, bottom: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.95)',
-            zIndex: 9999,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            cursor: 'zoom-out'
-          }}
+          className="fullscreen-modal" 
           onClick={() => setFullScreenMedia(null)}
+          style={{
+            position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+            backgroundColor: 'rgba(255, 255, 255, 0.95)', zIndex: 9999,
+            display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'zoom-out'
+          }}
         >
+          <div 
+            style={{ position: 'absolute', top: '20px', right: '30px', color: 'black', fontSize: '40px', cursor: 'pointer', zIndex: 10000 }}
+            onClick={(e) => { e.stopPropagation(); setFullScreenMedia(null); }}
+          >
+            &times;
+          </div>
           {fullScreenMedia.endsWith('.mov') || fullScreenMedia.endsWith('.mp4') ? (
             <video 
               src={fullScreenMedia} 
