@@ -212,6 +212,14 @@ function App() {
           </div>
         </section>
 
+        {/* PERSONAL WORK */}
+        <section className="mb-70">
+          <div className="cv-grid">
+            <div></div>
+            <h2 className="style-section-title">Personal Work</h2>
+          </div>
+        </section>
+
         {/* EDUCATIONAL EXPERIENCE */}
         <section className="mb-70">
           <div className="cv-grid">
