@@ -117,8 +117,8 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
                 </div>
-                <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-square" />
-                <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-square" />
+                <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-landscape" />
+                <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
