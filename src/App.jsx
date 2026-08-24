@@ -140,6 +140,7 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Collaborated in a multidisciplinary team of 300+ on Stage 4 delivery for Poland’s CPK Airport Project. Extracted, cleaned, and manipulated complex data from global FEA models (ETABS). Designed & documented a bus station structure.
                 </div>
+                <MediaImage src="/foster-sketch.jpg" alt="Structural Engineering Sketch" className="gallery-landscape" />
               </div>
             </div>
           </div>
