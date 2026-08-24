@@ -234,6 +234,8 @@ function App() {
                 <MediaImage src="/jamat-2.png" alt="Flowchart Pipeline" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
                 <MediaImage src="/jamat-3.jpg" alt="Extracted Subjects Grid" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
                 <MediaImage src="/jamat-4.png" alt="PC-MCLD Transformation" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/jamat-arch.png" alt="Architecture Comparison" className="gallery-landscape" style={{ objectFit: 'contain' }} />
+                <MediaImage src="/jamat-characters.png" alt="Character Extraction" className="gallery-square" style={{ objectFit: 'contain' }} />
               </div>
             </div>
           </div>
