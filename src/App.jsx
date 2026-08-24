@@ -99,18 +99,20 @@ function App() {
             <div className="style-date">July 2026 –<br/>Aug 2026</div>
             <div>
               <div className="style-role-title">Spatial design</div>
-              <div className="style-employee">Freelance</div>
+              <div className="style-employee">Freelance x Cosimo de Barry</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Led spatial design for Nike ARENA Event & NTS Show featuring Erykah Badu. Developed the design all the way from concept stage to fabrication and instillation.
+                  This work was done in collaboration with Cosimo de Barry. Together we led spatial design for Nike's ARENA Event. Working closely with Evening Studio we designed and managed spatial design from concept stage all the way to fabrication and installation. Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
                 </div>
                 <MediaImage src="/nike-setup.png" alt="Nike Setup" className="gallery-landscape" />
                 <MediaImage src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
                 <MediaVideo src="/social-impact.mov" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  Our second project was for an Erykah Badu x The Alchemist live show hosted by NTS.
+                </div>
                 <MediaImage src="/nts-flyer.jpg" alt="NTS Flyer" className="gallery-square" style={{ objectPosition: 'top' }} />
               </div>
             </div>
