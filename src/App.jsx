@@ -166,7 +166,7 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Directed and produced branded content for clients including Converse, Levis, and Axel Arigato. Led production crews of 50+ for music videos with artists signed to Epic and Atlantic Records. Achieved CPV of ~0.4p.
+                  For Col3trane and Mahalia's 'Pretty', we crafted a juxtaposition of elegance and chaos
                 </div>
                 <MediaImage src="/promo-r1-1.jpg" alt="Music Promo 1" className="gallery-square" />
                 <MediaImage src="/promo-r1-2.jpg" alt="Music Promo 2" className="gallery-landscape" />
@@ -175,7 +175,9 @@ function App() {
                 <MediaImage src="/promo-r1-5.jpg" alt="Music Promo 5" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  For our, and Mimi Webb's, first music video, we captured a visual journey of fading romance on film. The decision to go analogue was a deliberate choice, our intention being to strip back the pop gloss and present an image of authenticity.
+                </div>
                 <MediaImage src="/promo-1.jpg" alt="Music Promo Set" className="gallery-landscape" />
                 <MediaImage src="/promo-2.jpg" alt="Music Promo Crew" className="gallery-landscape" />
                 <MediaImage src="/promo-3.jpg" alt="Music Promo Car" className="gallery-landscape" />
@@ -256,7 +258,9 @@ function App() {
               <div className="style-employee">Essays</div>
               
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  In my search for the tech frontier I spent the month of March at Balaji's Network School, in Johor. During this time I shared an essay with my fellow NS members; by borrowing from moral philosophy my aim was to ask the practical question of by what tangible metrics one could judge such an experimental society as a network state.
+                </div>
               </div>
             </div>
           </div>
