@@ -109,11 +109,16 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  This work was done in collaboration with Cosimo de Barry. Together we led spatial design for Nike's ARENA Event. Working closely with Evening Studio we designed and managed spatial design from concept stage all the way to fabrication and installation. Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
+                  This work was done in collaboration with Cosimo de Barry. Together we led spatial design for Nike's ARENA Event. Working closely with Evening Studio we designed and managed spatial design from concept stage all the way to fabrication and installation.
                 </div>
                 <MediaImage src="/nike-setup.png" alt="Nike Setup" className="gallery-landscape" />
                 <MediaImage src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
                 <MediaVideo src="/social-impact.mov" className="gallery-landscape" />
+                <div className="gallery-paragraph style-paragraph">
+                  Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
+                </div>
+                <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-square" />
+                <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
