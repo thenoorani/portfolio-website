@@ -227,8 +227,11 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
-                <MediaImage src="/jamat-1.png" alt="Jamat Tanzania Image 1" className="gallery-square" />
-                <MediaImage src="/jamat-0.png" alt="Jamat Tanzania Image 2" className="gallery-square" />
+                <MediaImage src="/jamat-1.png" alt="Jamat Tanzania Image 1" className="gallery-square" style={{ objectFit: 'contain' }} />
+                <MediaImage src="/jamat-0.png" alt="Jamat Tanzania Image 2" className="gallery-square" style={{ objectFit: 'contain' }} />
+                <MediaImage src="/jamat-2.png" alt="Flowchart Pipeline" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/jamat-3.jpg" alt="Extracted Subjects Grid" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/jamat-4.png" alt="PC-MCLD Transformation" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
               </div>
             </div>
           </div>
