@@ -223,22 +223,12 @@ function App() {
             <div className="style-date"></div>
             <div>
               <div className="style-role-title">Jamat Tanzania</div>
-              <div className="style-employee"></div>
-              
-              <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
-              </div>
-            </div>
-          </div>
-
-          <div className="cv-grid">
-            <div className="style-date"></div>
-            <div>
-              <div className="style-role-title">Image Creation</div>
               <div className="style-employee">Studies</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
+                <MediaImage src="/jamat-1.png" alt="Jamat Tanzania Image 1" className="gallery-square" />
+                <MediaImage src="/jamat-0.png" alt="Jamat Tanzania Image 2" className="gallery-square" />
               </div>
             </div>
           </div>
