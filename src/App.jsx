@@ -26,9 +26,9 @@ function App() {
     />
   );
 
-  const MediaPdf = ({ src, thumbnailSrc, alt, className, style }) => (
+  const MediaPdf = ({ src, thumbnailSrc, alt, className, style, imgStyle }) => (
     <div className={className} style={{ position: 'relative', cursor: 'zoom-in', overflow: 'hidden', ...style }} onClick={() => setFullScreenMedia(src)}>
-      <img src={thumbnailSrc} alt={alt} style={{ width: '100%', height: 'auto', display: 'block' }} />
+      <img src={thumbnailSrc} alt={alt} style={{ width: '100%', height: 'auto', display: 'block', ...imgStyle }} />
     </div>
   );
 
@@ -117,8 +117,8 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
                 </div>
-                <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-landscape" />
-                <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-landscape" />
+                <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-landscape" imgStyle={{ height: '100%', objectFit: 'cover' }} />
+                <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-landscape" imgStyle={{ height: '100%', objectFit: 'cover' }} />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
