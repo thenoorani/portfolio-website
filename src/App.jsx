@@ -262,6 +262,9 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
+                <MediaImage src="/uni-1.jpg" alt="University Installation Structure" className="gallery-square" />
+                <MediaImage src="/uni-2.jpg" alt="Installation Motor Detail" className="gallery-landscape" />
+                <MediaImage src="/uni-3.jpg" alt="Installation Interaction" className="gallery-landscape" />
               </div>
             </div>
           </div>
