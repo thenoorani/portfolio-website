@@ -245,12 +245,14 @@ function App() {
               <div className="style-employee">Essay</div>
               
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph">
+                <a href="https://thenoorani.substack.com/p/network-states-preferable-by-which" target="_blank" rel="noreferrer" className="gallery-paragraph style-paragraph" style={{ display: 'block' }}>
                   In my search for the tech frontier I spent the month of March at Balaji's Network School, in Johor. During this time I shared an essay with my fellow NS members; by borrowing from moral philosophy my aim was to ask the practical question of by what tangible metrics one could judge such an experimental society as a network state.
-                </div>
+                </a>
                 <MediaImage src="/network-1.jpg" alt="Network School Chess" className="gallery-square" />
                 <MediaImage src="/network-2.jpg" alt="Johor Skyline" className="gallery-landscape" />
                 <MediaImage src="/network-3.jpg" alt="Beach" className="gallery-landscape" />
+                <MediaImage src="/network-4.jpg" alt="Refugees" className="gallery-landscape" />
+                <MediaImage src="/network-5.jpg" alt="Graph" className="gallery-landscape" />
               </div>
             </div>
           </div>
