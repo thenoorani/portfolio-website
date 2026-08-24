@@ -252,7 +252,7 @@ function App() {
                 <MediaImage src="/network-2.jpg" alt="Johor Skyline" className="gallery-landscape" />
                 <MediaImage src="/network-3.jpg" alt="Beach" className="gallery-landscape" />
                 <MediaImage src="/network-4.jpg" alt="Refugees" className="gallery-landscape" />
-                <MediaImage src="/network-5.jpg" alt="Graph" className="gallery-landscape" />
+                <MediaImage src="/network-5.jpg" alt="Graph" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
               </div>
             </div>
           </div>
