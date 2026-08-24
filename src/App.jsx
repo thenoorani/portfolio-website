@@ -266,6 +266,7 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
+                <MediaPdf src="/dissertation.pdf" thumbnailSrc="/dissertation-thumb.jpg" alt="Dissertation Document" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
