@@ -148,6 +148,11 @@ function App() {
                 <MediaImage src="/cpk-1.png" alt="CPK Airport Aerial" className="gallery-landscape" />
                 <MediaImage src="/cpk-2.jpg" alt="CPK Airport Night Visual" className="gallery-landscape" />
                 <MediaImage src="/cpk-3.jpg" alt="CPK Airport Retail Level" className="gallery-landscape" />
+              </div>
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph">
+                  My time at Foster + Partners also exposed me to a culture of craft and innovation. While I ultimately decided to leave the AEC industry, it was a privilege to see and participate in a process that consistently produces groundbreaking work.
+                </div>
                 <MediaImage src="/foster-sketch.jpg" alt="Structural Engineering Sketch" className="gallery-landscape" />
               </div>
             </div>
@@ -225,7 +230,7 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Spoke about influencers as emergent political actors, the impact of attention economies on discourse, parasocial trust dynamics, and the shift toward decentralised political communication.
+                  Thanks to the Evens Foundation I had a chance to speak about the intersection of attention economies, parasocial trust, and decentralized political communication. With a longstanding interest in political science and media theory I drew on the ideas of Max Weber and Marshall McLuhan to try to articulate my own perception of the media environment my generation inhabits.
                 </div>
                 <MediaVideo src="/linkedin-panel.mp4" className="gallery-landscape" />
               </div>
