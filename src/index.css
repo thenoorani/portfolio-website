@@ -41,7 +41,8 @@ body {
 .style-role-title {
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
 }
 
 .style-employee {
