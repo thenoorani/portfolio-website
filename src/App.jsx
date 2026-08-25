@@ -86,12 +86,12 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Co-founded with Cosimo de Barry, Peace4 is city guide for London. It focuses on aggregating and curating the "long tail" of th cities cultural life, with the aim of helping young people explore slightly alternative and rewarding experiences.
+                  Co-founded with Cosimo de Barry, Peace4 is a city guide for London. It focuses on aggregating and curating the "long tail" of the city's cultural life, with the aim of helping young people explore slightly alternative and rewarding experiences.
                 </div>
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Peace4 can also be understood as an agentic organisation; it's real life analoge being The Village Voice, LA Weekly or Time Out. Peace 4 has been structured as a direct acyclical graph, with four stages: Data Ingestion, Curation, Compostion, Distribution + Maintanance.
+                  Peace4 can also be understood as an agentic organisation; its real-life analogue being The Village Voice, LA Weekly or Time Out. Peace4 has been structured as a directed acyclic graph, with four stages: Data Ingestion, Curation, Composition, Distribution + Maintenance.
                 </div>
               </div>
               <div className="gallery-scroll">
