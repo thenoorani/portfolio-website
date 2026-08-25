@@ -280,7 +280,9 @@ function App() {
               <div className="style-employee">Research Assistant</div>
               
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  Exploring another tech frontier, I acted as a research assistant for a Cambridge University dissertation, travelling to South Congo to conduct on-the-ground spatial research and analyze the impact of industrial mining on urban development.
+                </div>
               </div>
             </div>
           </div>
