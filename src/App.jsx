@@ -303,6 +303,10 @@ function App() {
                   Throughout my architectural education I gravitated towards computational tools and programatic problem solving over traditional design methods. This culminated in my final year dissertation in which I used advanced numerical simulations to predict failure in epoxy-tied pre-tensioned structures under thermal stress.
                 </div>
                 <MediaPdf src="/dissertation.pdf" thumbnailSrc="/dissertation-thumb.jpg" alt="Dissertation Document" className="gallery-square" />
+                <div className="gallery-paragraph style-paragraph">
+                  In an early design project I prototyped accross hardware and software, exploring primitive computer vision algorithms. I had been briefed to create a visual representation of an enviromental phemonema at a site. I ended up building an array of windcatchers, tracking them from above and ploting the resultant movements.
+                </div>
+                <MediaVideo src="/surf-features.mov" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
