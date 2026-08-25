@@ -302,6 +302,11 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Exploring another tech frontier, I acted as a research assistant for a Cambridge University dissertation, travelling to South Congo to conduct on-the-ground spatial research and analyze the impact of industrial mining on urban development.
                 </div>
+                <MediaImage src="/congo-1.jpg" alt="Kolwezi Landscape 1" className="gallery-landscape" />
+                <MediaImage src="/congo-2.jpg" alt="Kolwezi Landscape 2" className="gallery-landscape" />
+                <MediaImage src="/congo-3.jpg" alt="Kolwezi Landscape 3" className="gallery-landscape" />
+                <MediaImage src="/congo-4.jpg" alt="Kolwezi Portrait" className="gallery-square" />
+                <MediaImage src="/congo-5.jpg" alt="Kolwezi Landscape 4" className="gallery-landscape" />
               </div>
             </div>
           </div>
