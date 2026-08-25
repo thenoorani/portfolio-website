@@ -290,11 +290,18 @@ function App() {
               <div className="style-employee">The Bartlett School of Architecture, UCL</div>
               
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  My interdisciplinary master's degree combined architecture, environmental, and structural engineering. The most demanding projects began with fuzzy, ambiguous briefs that required synthesizing all three disciplines. Because design problems are inherently under-defined, offering infinite valid solutions and countless variables to optimize, success required exploring broadly to develop a distinct perspective.
+                </div>
+                <div className="gallery-paragraph style-paragraph">
+                  Once that perspective was established one would impose rigorous logical constraints, formalise the messy problem space, and build a structural argument to defend the final proposal.
+                </div>
                 <MediaImage src="/bartlett-section.jpg" alt="Architecture Section" className="gallery-landscape" />
               </div>
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  Throughout my architectural education I gravitated towards computational tools and programatic problem solving over traditional design methods. This culminated in my final year dissertation in which I used advanced numerical simulations to predict failure in epoxy-tied pre-tensioned structures under thermal stress.
+                </div>
                 <MediaPdf src="/dissertation.pdf" thumbnailSrc="/dissertation-thumb.jpg" alt="Dissertation Document" className="gallery-square" />
               </div>
               <div className="gallery-scroll">
