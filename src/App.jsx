@@ -91,7 +91,7 @@ function App() {
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Peace4 can also be understood as an agentic organisation; its real-life analogue being The Village Voice, LA Weekly or Time Out. Peace4 has been structured as a directed acyclic graph, with four stages: Data Ingestion, Curation, Composition, Distribution + Maintenance.
+                  Peace4 can also be understood as an agentic organisation; its real-life analogue being The Village Voice, LA Weekly or Time Out. Peace4 has been structured as a directed acyclic graph, with four stages: Data Ingestion, Curation, Composition, Distribution + Maintenance. Human-in-the-loop has been implemented at critical junctures.
                 </div>
               </div>
               <div className="gallery-scroll">
@@ -145,9 +145,9 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   I extracted and cleaned heavy datasets from global computational models (ETABS) and managed the structural coordination with the architectural envelope. It was an intensive masterclass in cross-functional collaboration, technical communication, and high-stakes delivery.
                 </div>
-                <MediaImage src="/cpk-1.png" alt="CPK Airport Aerial" className="gallery-landscape" />
-                <MediaImage src="/cpk-2.jpg" alt="CPK Airport Night Visual" className="gallery-landscape" />
-                <MediaImage src="/cpk-3.jpg" alt="CPK Airport Retail Level" className="gallery-landscape" />
+                <MediaImage src="/cpk-1.png" alt="CPK Airport Aerial" className="gallery-landscape" style={{ filter: 'grayscale(100%)' }} />
+                <MediaImage src="/cpk-2.jpg" alt="CPK Airport Night Visual" className="gallery-landscape" style={{ filter: 'grayscale(100%)' }} />
+                <MediaImage src="/cpk-3.jpg" alt="CPK Airport Retail Level" className="gallery-landscape" style={{ filter: 'grayscale(100%)' }} />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
@@ -349,12 +349,9 @@ function App() {
                   In an early design project I prototyped accross hardware and software, exploring primitive computer vision algorithms. I had been briefed to create a visual representation of an enviromental phemonema at a site. I ended up building an array of windcatchers, tracking them from above and ploting the resultant movements.
                 </div>
                 <MediaVideo src="/surf-features.mov" className="gallery-landscape" style={{ objectFit: 'contain' }} />
-              </div>
-              <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
-                <MediaImage src="/uni-1.jpg" alt="University Installation Structure" className="gallery-square" />
-                <MediaImage src="/uni-2.jpg" alt="Installation Motor Detail" className="gallery-landscape" />
-                <MediaImage src="/uni-3.jpg" alt="Installation Interaction" className="gallery-landscape" />
+                <MediaImage src="/uni-1.jpg" alt="University Installation Structure" className="gallery-square" style={{ filter: 'grayscale(100%)' }} />
+                <MediaImage src="/uni-2.jpg" alt="Installation Motor Detail" className="gallery-landscape" style={{ filter: 'grayscale(100%)' }} />
+                <MediaImage src="/uni-3.jpg" alt="Installation Interaction" className="gallery-landscape" style={{ filter: 'grayscale(100%)' }} />
               </div>
             </div>
           </div>
