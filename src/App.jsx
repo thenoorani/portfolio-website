@@ -13,7 +13,7 @@ function App() {
     />
   );
 
-  const MediaVideo = ({ src, className }) => (
+  const MediaVideo = ({ src, className, style }) => (
     <video 
       src={src} 
       className={className}
@@ -22,7 +22,7 @@ function App() {
       muted 
       playsInline 
       onClick={() => setFullScreenMedia(src)}
-      style={{ cursor: 'zoom-in', objectFit: 'cover' }}
+      style={{ cursor: 'zoom-in', objectFit: 'cover', ...style }}
     />
   );
 
@@ -268,8 +268,19 @@ function App() {
                 <MediaImage src="/network-1.jpg" alt="Network School Chess" className="gallery-square" />
                 <MediaImage src="/network-2.jpg" alt="Johor Skyline" className="gallery-landscape" />
                 <MediaImage src="/network-3.jpg" alt="Beach" className="gallery-landscape" />
-                <MediaImage src="/network-4.jpg" alt="Refugees" className="gallery-landscape" />
                 <MediaImage src="/network-5.jpg" alt="Graph" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+              </div>
+            </div>
+          </div>
+
+          <div className="cv-grid mt-40">
+            <div className="style-date"></div>
+            <div>
+              <div className="style-role-title">Mining & Urban Development in Kolwezi, DRC</div>
+              <div className="style-employee">Research Assistant</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph"></div>
               </div>
             </div>
           </div>
@@ -306,7 +317,7 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   In an early design project I prototyped accross hardware and software, exploring primitive computer vision algorithms. I had been briefed to create a visual representation of an enviromental phemonema at a site. I ended up building an array of windcatchers, tracking them from above and ploting the resultant movements.
                 </div>
-                <MediaVideo src="/surf-features.mov" className="gallery-landscape" />
+                <MediaVideo src="/surf-features.mov" className="gallery-landscape" style={{ objectFit: 'contain' }} />
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
