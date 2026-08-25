@@ -140,7 +140,7 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Collaborated in a multidisciplinary team of 300+ on Stage 4 delivery for Poland’s CPK Airport Project. Extracted, cleaned, and manipulated complex data from global FEA models (ETABS). Designed & documented a bus station structure.
+                  My two years at Foster + Partners, on Poland's CPK Airport, taught me how complex systems of massive scale are shipped. Within a team of over 300 people, I worked at the intersection of raw data and spatial integration. I extracted and cleaned heavy datasets from global computational models (ETABS) and managed the structural coordination with the architectural envelope. It was an intensive masterclass in cross-functional collaboration, technical communication, and high-stakes delivery.
                 </div>
                 <MediaImage src="/foster-sketch.jpg" alt="Structural Engineering Sketch" className="gallery-landscape" />
               </div>
