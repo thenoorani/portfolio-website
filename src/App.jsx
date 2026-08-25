@@ -246,6 +246,9 @@ function App() {
                   I now sought a way to go from the fragment to the the whole character. My attempts to use pose-guided person image synthesis where far from successful. The best result was obtained with pose-constrained and multi-focal conditioned latent diffusion, but even here the slender physiques and form-fitting garments prevalent in its fashion heavy training data made it unsuitable.
                 </div>
                 <MediaImage src="/jamat-4.png" alt="PC-MCLD Transformation" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <div className="gallery-paragraph style-paragraph">
+                  I finally succeeded with a Gemini (Imagen 3). Most suprising was how it outperformed Flux 2; its multimodal architecture proved far more capable at simultaneously reasoning across distinct visual inputs and it accurately transferred the vintage photo's identity and specific pose into the three-view layout template. In contrast, FLUX struggled to reconcile competing visual references and maintain multi-angle character consistency.
+                </div>
                 <MediaImage src="/jamat-arch.png" alt="Architecture Comparison" className="gallery-landscape" style={{ objectFit: 'contain' }} />
                 <MediaImage src="/jamat-characters.png" alt="Character Extraction" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'black' }} />
               </div>
