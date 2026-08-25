@@ -224,11 +224,13 @@ function App() {
           <div className="cv-grid">
             <div className="style-date">April 2026</div>
             <div>
-              <div className="style-role-title">Jamat Tanzania</div>
+              <div className="style-role-title">Ismaili Ancestors</div>
               <div className="style-employee">Studies</div>
               
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  With these studies I attempt to use AI to resurrect my ancestors: turn of the century immigrants who left India for Zanzibar. Working from old photos my first goal was to extract each individual and, filling in the blanks, create a character.
+                </div>
                 <MediaImage src="/jamat-1.png" alt="Jamat Tanzania Image 1" className="gallery-square" style={{ objectFit: 'contain' }} />
                 <MediaImage src="/jamat-0.png" alt="Jamat Tanzania Image 2" className="gallery-square" style={{ objectFit: 'contain' }} />
                 <MediaImage src="/jamat-2.png" alt="Flowchart Pipeline" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
