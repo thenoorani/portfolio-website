@@ -111,7 +111,6 @@ a:hover {
   display: flex;
   gap: var(--col-gap);
   overflow-x: auto;
-  overflow-y: hidden;
   margin-top: 12px;
   min-height: 278px;
   /* Hides scrollbar for clean look but allows scrolling */
