@@ -81,16 +81,18 @@ function App() {
           <div className="cv-grid">
             <div className="style-date">June 2026 –<br/>Ongoing</div>
             <div>
-              <div className="style-role-title">Founder & AI Engineer</div>
+              <div className="style-role-title">Co-Founder & AI Engineer</div>
               <div className="style-employee">Peace4</div>
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Orchestrated a multi-agent pipeline using Gemini Pro, separating concerns between Data Normalization, Editorial Curation, and Art Direction agents, safely constrained by deterministic Zod schema validation and Human-In-The-Loop (HITL) approvals.
+                  Co-founded with Cosimo de Barry, Peace4 is city guide for London. It focuses on aggregating and curating the "long tail" of th cities cultural life, with the aim of helping young people explore slightly alternative and rewarding experiences.
                 </div>
               </div>
               <div className="gallery-scroll">
-                <div className="gallery-paragraph style-paragraph"></div>
+                <div className="gallery-paragraph style-paragraph">
+                  Peace4 can also be understood as an agentic organisation; it's real life analoge being The Village Voice, LA Weekly or Time Out. Peace 4 has been structured as a direct acyclical graph, with four stages: Data Ingestion, Curation, Compostion, Distribution + Maintanance.
+                </div>
               </div>
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph"></div>
@@ -115,7 +117,7 @@ function App() {
                 <MediaImage src="/nike-cube.jpg" alt="Nike Arena Cube" className="gallery-square" />
                 <MediaVideo src="/social-impact.mov" className="gallery-landscape" />
                 <div className="gallery-paragraph style-paragraph">
-                  Central to our proposal was the combination of a high gloss performance surface with a low LED screen.
+                  Central to our proposed concept was the combination of a high gloss surface with a low LED screen. This was both a nod to the visual language of basketball, but also a decision to focus on creating a heightened performance space to elevate the artistry of the talent.
                 </div>
                 <MediaPdf src="/nike-shadow.pdf" thumbnailSrc="/nike-shadow-thumb.jpg" alt="Nike Shadow Treatment" className="gallery-landscape" imgStyle={{ height: '100%', objectFit: 'cover' }} />
                 <MediaPdf src="/nike-set.pdf" thumbnailSrc="/nike-set-thumb.jpg" alt="Nike Set Treatment" className="gallery-landscape" imgStyle={{ height: '100%', objectFit: 'cover' }} />
