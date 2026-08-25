@@ -274,7 +274,7 @@ function App() {
           </div>
 
           <div className="cv-grid mt-40">
-            <div className="style-date"></div>
+            <div className="style-date">Jan 2025</div>
             <div>
               <div className="style-role-title">Mining & Urban Development in Kolwezi, DRC</div>
               <div className="style-employee">Research Assistant</div>
