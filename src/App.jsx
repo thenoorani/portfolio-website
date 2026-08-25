@@ -242,6 +242,9 @@ function App() {
                 </div>
                 <MediaImage src="/jamat-5.png" alt="Revised Architecture Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
                 <MediaImage src="/jamat-3.jpg" alt="Extracted Subjects Grid" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <div className="gallery-paragraph style-paragraph">
+                  I now sought a way to go from the fragment to the the whole character. My attempts to use pose-guided person image synthesis where far from successful. The best result was obtained with pose-constrained and multi-focal conditioned latent diffusion, but even here the slender physiques and form-fitting garments prevalent in its fashion heavy training data made it unsuitable.
+                </div>
                 <MediaImage src="/jamat-4.png" alt="PC-MCLD Transformation" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
                 <MediaImage src="/jamat-arch.png" alt="Architecture Comparison" className="gallery-landscape" style={{ objectFit: 'contain' }} />
                 <MediaImage src="/jamat-characters.png" alt="Character Extraction" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'black' }} />
