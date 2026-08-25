@@ -26,6 +26,8 @@ body {
   line-height: var(--baseline);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   overflow-x: hidden; /* Prevent stage from scrolling horizontally */
 }
 
@@ -41,8 +43,7 @@ body {
 .style-role-title {
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
   font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.5px;
+  font-size: 18px;
 }
 
 .style-employee {
