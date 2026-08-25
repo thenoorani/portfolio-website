@@ -234,7 +234,10 @@ function App() {
                 <MediaImage src="/jamat-1.png" alt="Jamat Tanzania Image 1" className="gallery-square" style={{ objectFit: 'contain' }} />
                 <MediaImage src="/jamat-0.png" alt="Jamat Tanzania Image 2" className="gallery-square" style={{ objectFit: 'contain' }} />
                 <div className="gallery-paragraph style-paragraph">
-                  My initial pipeline was a complex, six-stage architecture that ran parallel face, pose, and mask models, relying on custom association logic to untangle overlapping individuals and score extraction quality. I ultimately pivoted to a streamlined, two-stage approach that uses YOLO for robust instance segmentation and physically isolates each subject before passing them through BiRefNet. This revised architecture proved vastly superior because it eliminated the massive computational overhead of redundant feature extraction while delivering much cleaner, photographic-quality alpha mattes around fine details like hair and clothing.
+                  My initial pipeline was a complex, six-stage architecture that ran parallel face, pose, and mask models, relying on custom association logic to untangle overlapping individuals and score extraction quality.
+                </div>
+                <div className="gallery-paragraph style-paragraph">
+                  I ultimately pivoted to a streamlined, two-stage approach that uses YOLO for robust instance segmentation and physically isolates each subject before passing them through BiRefNet. This revised architecture proved vastly superior because it eliminated the massive computational overhead of redundant feature extraction while delivering much cleaner, photographic-quality alpha mattes around fine details like hair and clothing.
                 </div>
                 <MediaImage src="/jamat-5.png" alt="Revised Architecture Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
                 <MediaImage src="/jamat-2.png" alt="Flowchart Pipeline" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
