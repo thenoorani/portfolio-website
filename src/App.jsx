@@ -191,10 +191,21 @@ function App() {
               
               <div className="gallery-scroll">
                 <div className="gallery-paragraph style-paragraph">
-                  Built “Bunbury” - a decentralised calling card platform built on the Solid protocol to facilitate secure, peer-to-peer sharing of sovereign personal data based on physical proximity.
+                  "Bunbury" is a decentralized, proximity-based calling card application built for the Open Data Institute’s (ODI) Socially Linked Data Hackathon, where it was awarded First Place. It reimagines digital networking by allowing users to securely exchange highly contextual "projections" of their personal data with people physically nearby, completely independent of centralized databases.
                 </div>
                 <MediaImage src="/hackathon-win.jpg" alt="1st Place Solid Hackathon" className="gallery-landscape" />
-                <MediaImage src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" />
+                <div className="gallery-paragraph style-paragraph">
+                  A Solid Pod (Personal Online Data store) is a secure, personal web server that gives users total sovereign ownership over their data. Instead of handing personal information over to a corporation's centralized database, users bring their own Pod to the Bunbury application, granting temporary access for the app to read their profile and store their calling cards locally.
+                </div>
+                <div className="gallery-paragraph style-paragraph">
+                  The Solid Protocol is a set of open web standards—championed by Sir Tim Berners-Lee—designed to decentralize the web. Bunbury leverages these protocols (including WebID for universal authentication and RDF/vCard ontologies for structured data) to ensure that users' identities and connections are interoperable and not locked into any single ecosystem.
+                </div>
+                <MediaImage src="/bunbury-app.png" alt="Bunbury Application" className="gallery-square" style={{ alignSelf: 'flex-start' }} />
+                <div className="gallery-paragraph style-paragraph">
+                  The diagrams illustrate Bunbury's "severed storage" and peer-to-peer approach. The React application hosts only the UI and business logic on the client's browser, meaning when two users cross paths, the app facilitates a direct, decentralized handshake: writing access permissions directly from User A's Pod to User B's Pod without a central server ever seeing the data.
+                </div>
+                <MediaImage src="/solid-diagram-1.png" alt="Bunbury Architecture Diagram" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/solid-diagram-2.png" alt="Peer to Peer Handshake Diagram" className="gallery-square" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
               </div>
             </div>
           </div>
