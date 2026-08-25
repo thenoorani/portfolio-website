@@ -153,3 +153,10 @@ a:hover {
 }
 
 
+
+@media (max-width: 712px) {
+  :root {
+    --margin-left: 8px;
+    --margin-right: 64px;
+  }
+}
