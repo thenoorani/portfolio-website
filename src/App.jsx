@@ -280,6 +280,20 @@ function App() {
           </div>
 
           <div className="cv-grid">
+            <div className="style-date"></div>
+            <div>
+              <div className="style-role-title">Cut Out Pipeline</div>
+              <div className="style-employee">Study</div>
+              
+              <div className="gallery-scroll">
+                <div className="gallery-paragraph style-paragraph">
+                  With this study my goal was to engineer a system that could intelligently identify the salient focal points of an image, such as a character's face or silhouette, and then crop the image as though the main subject had been cut out with a pair of scissors. This pipeline would be only one module in a system handling a large number of images. A key requirement was to minimise any false positives. My goal was quality over quantity.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="cv-grid">
             <div className="style-date">March 2026</div>
             <div>
               <div className="style-role-title">Network State</div>
