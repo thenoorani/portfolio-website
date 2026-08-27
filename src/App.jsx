@@ -292,15 +292,15 @@ function App() {
                 <div className="gallery-paragraph style-paragraph">
                   Initially, I experimented with multimodal LLMs to generate bounding boxes for the subjects. However, these models hallucinated coordinates and produced rigid rectangles that couldn't handle organic silhouettes. I then tested general segmentation models like SAM, but they easily became confused by chaotic cinematic backgrounds, generating fragmented masks and unacceptable false positives.
                 </div>
-                <MediaImage src="/cutout-flow1.png" alt="LLM to SAM Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/cutout-flow1.png" alt="LLM to SAM Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white', width: '473px', height: '278px' }} />
                 <div className="gallery-paragraph style-paragraph">
                   To achieve strict quality control, I abandoned LLM spatial reasoning in favor of a deterministic computer vision pipeline. I implemented an OpenCV Deep Neural Network as a strict validation gate: if the system couldn't confidently detect a human face or if the subject was too small, the image was safely skipped. For approved images, the pipeline ran parallel, specialized segmentation models to guarantee the subject was perfectly isolated.
                 </div>
-                <MediaImage src="/cutout-flow2.png" alt="OpenCV Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/cutout-flow2.png" alt="OpenCV Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white', width: '473px', height: '278px' }} />
                 <div className="gallery-paragraph style-paragraph">
                   To achieve the clean, 'scissor-cut' aesthetic required for professional layouts, I processed the raw segmentation masks through a series of morphological transformations. By stretching a mathematical Convex Hull around the subject and simplifying the vertices, the engine successfully converted noisy AI pixel-data into a sharp, geometric safety-margin ready for automated typography wrapping.
                 </div>
-                <MediaImage src="/cutout-flow3.png" alt="Morphological Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white' }} />
+                <MediaImage src="/cutout-flow3.png" alt="Morphological Flowchart" className="gallery-landscape" style={{ objectFit: 'contain', backgroundColor: 'white', width: '473px', height: '278px' }} />
               </div>
             </div>
           </div>
