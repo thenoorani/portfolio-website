@@ -280,7 +280,7 @@ function App() {
           </div>
 
           <div className="cv-grid">
-            <div className="style-date"></div>
+            <div className="style-date">June 2026</div>
             <div>
               <div className="style-role-title">Cut Out Pipeline</div>
               <div className="style-employee">Study</div>
